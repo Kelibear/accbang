@@ -1,12 +1,12 @@
 :root {
   --primary: #fff;
   --bg-color: rgb(5, 53, 61);
-  --bg-envelope-color: #e2ae88;
-  --envelope-tab: #e2ae88;
-  --envelope-cover: #8b4513;
+  --bg-envelope-color: #ea9658;
+  --envelope-tab: #aa6635;
+  --envelope-cover: #744829;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --txt-color: #444;
-  --heart-color: rgb(252, 8, 231);
+  --heart-color: rgb(255, 122, 244);
 }
 
 body {
@@ -190,4 +190,5 @@ body {
 }
 .audio {
   margin-bottom: -850px;
+  margin-left: -300px;
 }
