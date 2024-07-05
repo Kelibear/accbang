@@ -1,9 +1,9 @@
 :root {
   --primary: #fff;
   --bg-color: rgb(5, 53, 61);
-  --bg-envelope-color: #8a4315;
-  --envelope-tab: #8a4315;
-  --envelope-cover: #8b4513;
+  --bg-envelope-color: #f4a460;
+  --envelope-tab: #f4a460;
+  --envelope-cover: #f6a255;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --txt-color: #444;
   --heart-color: rgb(252, 8, 231);
