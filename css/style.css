@@ -188,6 +188,6 @@ body {
   bottom: 10px;
   right: 10px;
 }
-#player {
-  display: none;
+.audio {
+  bottom: 10px;
 }
