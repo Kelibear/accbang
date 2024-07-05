@@ -80,6 +80,7 @@ body {
   font-family: "Dancing Script", cursive;
   color: var(--txt-color);
   text-align: left;
+  line-height: 1.6;
   font-size: 10px;
 }
 
@@ -130,20 +131,6 @@ body {
   transform: rotate(90deg);
   transition-delay: 0.4s;
 }
-/* 
-.letter.fullscreen:before {
-  position: absolute;
-  right: 20%;
-  bottom: 0;
-  width: 54%;
-  height: 80%;
-  background: var(--primary);
-  text-align: center;
-  transition: all 1s ease-in-out;
-  box-shadow: 0 0 5px var(--shadow-color);
-  padding: 20px 10px;
-  transform-origin: center bottom;
-} */
 
 .letter.fullscreen {
   position: fixed;
