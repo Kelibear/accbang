@@ -41,7 +41,7 @@ prevButton.addEventListener('click', (event) => {
       player = new YT.Player('player', {
         height: '0',
         width: '0',
-        videoId: 'iTWYa0t5COk&ab',  // Replace with your YouTube video ID
+        videoId: 'iTWYa0t5COk',  // Replace with your YouTube video ID
         events: {
           'onReady': onPlayerReady
         }
@@ -57,4 +57,3 @@ prevButton.addEventListener('click', (event) => {
     tag.src = "https://www.youtube.com/iframe_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
- 
