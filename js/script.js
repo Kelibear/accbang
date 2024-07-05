@@ -44,12 +44,20 @@ prevButton.addEventListener('click', (event) => {
         videoId: 'iTWYa0t5COk',  // Replace with your YouTube video ID
         events: {
           'onReady': onPlayerReady
+        },
+        playerVars: {
+          'autoplay': 1,
+          'mute': 1  // Start muted
         }
       });
     }
 
     function onPlayerReady(event) {
       event.target.playVideo();
+      // Unmute after user interaction
+      document.body.addEventListener('click', () => {
+        event.target.unMute();
+      }, { once: true });
     }
 
     // Load the IFrame Player API code asynchronously.
