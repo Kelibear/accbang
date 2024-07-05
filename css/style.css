@@ -17,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('img/bla.jpg') no-repeat center center/cover;
+  background: url('bla.jpg') no-repeat center center/cover;
 }
 
 .container {
