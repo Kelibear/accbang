@@ -1,3 +1,15 @@
+document.addEventListener('DOMContentLoaded', () => {
+  // Get the audio elements
+  const audio1 = document.getElementById('audio1');
+
+  // Try to play audio1 automatically
+  audio1.play().catch((error) => {
+    // If autoplay is blocked, inform the user or take an action
+    console.log('Autoplay was prevented. Click anywhere to play the audio.');
+    document.body.addEventListener('click', () => {
+      audio1.play();
+    }, { once: true });
+  });
 const envelope = document.querySelector('.envelope-wrapper');
 const letter = document.querySelector('.letter');
 const nextButton = document.querySelector('.next');
