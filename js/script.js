@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       audio1.play();
     }, { once: true });
   });
+});
 const envelope = document.querySelector('.envelope-wrapper');
 const letter = document.querySelector('.letter');
 const nextButton = document.querySelector('.next');
