@@ -58,4 +58,4 @@ prevButton.addEventListener('click', (event) => {
 });
 
 // Initialize the first page content
-document.querySelector('.page').innerHTML = pages[currentPage];
+// document.querySelector('.page').innerHTML = pages[currentPage];
