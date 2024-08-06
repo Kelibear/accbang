@@ -4,7 +4,6 @@ function start() {
   let heart = document.getElementById("heart");
   heart.addEventListener("transitionend", () => {
     bg_music.play();
-    heart.remove();
 });
   bg_music.addEventListener('ended', () => {
     bg_music.play();
