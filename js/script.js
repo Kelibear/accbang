@@ -29,6 +29,10 @@ const pages = [
 ];
 let currentPage = 0;
 
+function updatePageInfo() {
+  pageInfo.innerHTML = `${currentPage + 1}/${pages.length}`;
+}
+
 envelope.addEventListener('click', () => {
   envelope.classList.toggle('flap');
 });
@@ -45,6 +49,7 @@ nextButton.addEventListener('click', (event) => {
   if (currentPage < pages.length - 1) {
     currentPage++;
     document.querySelector('.page').innerHTML = pages[currentPage];
+    updatePageInfo();
   }
 });
 
@@ -53,8 +58,10 @@ prevButton.addEventListener('click', (event) => {
   if (currentPage > 0) {
     currentPage--;
     document.querySelector('.page').innerHTML = pages[currentPage];
+    updatePageInfo();
   }
 });
 
 // Initialize the first page content at the letter
 document.querySelector('.page').innerHTML = pages[currentPage];
+updatePageInfo();
