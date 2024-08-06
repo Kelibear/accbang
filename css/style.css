@@ -18,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url('../media/bla.jpg');
-  background-position: left center;
+  background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
 }
