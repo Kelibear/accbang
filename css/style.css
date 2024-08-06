@@ -180,9 +180,9 @@ body {
 }
 /* .audio {
   margin-bottom: -850px;
-  margin-left: -300px; */
+  margin-left: -300px;
 }
-/* .button {
+.button {
   position: relative;
   width: 300px;
   padding: 16px;
@@ -207,7 +207,18 @@ body {
   &:active {
     bottom: -3px;
     border-bottom: 2px solid #543c00;
-    background: #a17300; */
+    background: #a17300;
     color: #ada48b;
-  }
+  } */
+
+  .page-info {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: var(--txt-color);
+  background: var(--primary);
+  padding: 5px 10px;
+  border-radius: 5px;
 }
