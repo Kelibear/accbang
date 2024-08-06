@@ -1,3 +1,15 @@
+const bg_music = document.getElementById('bg_music');
+
+function start() {
+  let heart = document.getElementById("heart");
+  heart.addEventListener("transitionedend", () => {
+    bg_music.play();
+    heart.remove();
+});
+  bg_music.addEventListener('ended', () => {
+    bg_music.play();
+});
+}
 const envelope = document.querySelector('.envelope-wrapper');
 const letter = document.querySelector('.letter');
 const nextButton = document.querySelector('.next');
