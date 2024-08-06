@@ -175,11 +175,11 @@ body {
   bottom: 10px;
   right: 10px;
 }
-.audio {
+/* .audio {
   margin-bottom: -850px;
-  margin-left: -300px;
+  margin-left: -300px; */
 }
-.button {
+/* .button {
   position: relative;
   width: 300px;
   padding: 16px;
@@ -204,7 +204,7 @@ body {
   &:active {
     bottom: -3px;
     border-bottom: 2px solid #543c00;
-    background: #a17300;
+    background: #a17300; */
     color: #ada48b;
   }
 }
