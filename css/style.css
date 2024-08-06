@@ -216,7 +216,7 @@ body {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 14px;
+  font-size: 10px;
   color: var(--txt-color);
   background: var(--primary);
   padding: 5px 10px;
