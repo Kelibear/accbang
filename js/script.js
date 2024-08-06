@@ -2,7 +2,7 @@ const bg_music = document.getElementById('bg_music');
 
 function start() {
   let heart = document.getElementById("heart");
-  heart.addEventListener("transitionedend", () => {
+  heart.addEventListener("transitionend", () => {
     bg_music.play();
     heart.remove();
 });
