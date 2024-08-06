@@ -13,6 +13,7 @@ const envelope = document.querySelector('.envelope-wrapper');
 const letter = document.querySelector('.letter');
 const nextButton = document.querySelector('.next');
 const prevButton = document.querySelector('.prev');
+const pageInfo = document.querySelector('.page-info');
 const pages = [
   "I wake up every morning with a smile on my face, for I know that you exist in my life. You have given me comfort and security, that I have never felt in my life. From your presence that i feel every night, and your calming voice.",
   "Maybe we aren't used to it now, but i would like to, if there's any chance, i would like to open a new page with you. I don't need to proclaim that I have feelings for you, for you know as well as I do that nothing else matters to me as much as you do. I know that I love you, when the mere thoughts of loving someone else seemed impossible. Love feels light if it were you. Within this, I craft this letter for you, revealing the depth of my feelings towards you.",
