@@ -15,15 +15,15 @@ const nextButton = document.querySelector('.next');
 const prevButton = document.querySelector('.prev');
 const pageInfo = document.querySelector('.page-info');
 const pages = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "tes tes tes gweh keren",
+  "sdfsdfsdf",
+  "sdgsvdvs",
+  "sdbvsdfs",
+  "sdvsedvxs",
+  "svsedvse",
+  "sdvsevds",
+  "vsdvsdvs",
+  "vseesegdv",
   "With love, Keli.<br><br><br><button onclick=\"location.href='http://www.katysdaisies.com/share/UmhlaW5hfEtlbGl8SSdtIFNvcnJ5LApJIExvdmUgWW91LnxDcnkgQWJvdXQgSXQgTGF0ZXI6IFNoYW1lbGVzcyBTdW1tZXJ8NDM=/';\">For You, My Love</button>",
   "\[blank\]<br><br>I leave this page blank, incase our story continues."
 ];
