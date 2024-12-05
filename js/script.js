@@ -2,12 +2,21 @@ const bg_music = document.getElementById('bg_music');
 
 function start() {
   let heart = document.getElementById("heart");
+
+  // Menunggu event transition-end pada heart sebelum memutar musik
   heart.addEventListener("transitionend", () => {
-    bg_music.play();
-});
+    // Pastikan audio berhasil diputar
+    bg_music.play().catch(error => {
+      console.error("Error playing audio:", error);
+    });
+  });
+  
+  // Cek jika audio sudah selesai diputar, dan mulai lagi jika perlu
   bg_music.addEventListener('ended', () => {
-    bg_music.play();
-});
+    bg_music.play().catch(error => {
+      console.error("Error replaying audio:", error);
+    });
+  });
 }
 const envelope = document.querySelector('.envelope-wrapper');
 const letter = document.querySelector('.letter');
