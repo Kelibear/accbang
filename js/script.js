@@ -1,4 +1,4 @@
-const bg_music = document.getElementById('music_bg');
+const bg_music = document.getElementById('bg_music');
 
 function start() {
   let heart = document.getElementById("heart");
