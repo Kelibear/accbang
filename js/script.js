@@ -1,10 +1,12 @@
 const bg_music = document.getElementById('bg_music');
 
 function start() {
-  let heart = document.getElementById("heart");
-  heart.addEventListener("transitionend", () => {
-    bg_music.play();
-});
+    let bg_music = document.getElementById('bg_music');
+    bg_music.play().catch(error => console.log("Autoplay blocked:", error));
+}
+
+document.getElementById("heart").addEventListener("click", start);
+
   bg_music.addEventListener('ended', () => {
     bg_music.play();
 });
